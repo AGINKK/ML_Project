@@ -1,15 +1,11 @@
-class Dog:
+class Student():
+    pass
 
-    def __init__(self, name, breed):
-        self.name = name  # Instance attribute
-        self.breed = breed  # Instance attribute
+student1=Student()
+student1.name="Agin"
+student1.age=21
+student1.course="MCA"
 
-    def bark(self):
-        return f"{self.name} says Woof!"
-
-dog1 = Dog("Buddy", "Golden Retriever")
-dog2 = Dog("Max", "German Shepherd")
-
-print(dog1.name) 
-print(dog2.breed) 
-print(dog1.bark())  
+print(student1.name)
+print(student1.age)
+print(student1.course)
